@@ -1,0 +1,290 @@
+* {
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height:100vh;
+    width:100vw;
+    background-color: rgb(249, 245, 245);
+    font-family:sans-serif
+}
+
+.container {
+
+    height:100vh;
+    width:100vw;
+    
+}
+
+.container1 {
+
+    height:75vh;
+    width:98.6vw;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url("backgroundimg.avif");
+
+}
+
+#listcontent {
+
+    height:14vh;
+    width:50vw;
+    list-style-type:none;
+    display:flex;
+    justify-content:space-evenly;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#d2d0d0;
+    transform: translate(44vw,-33vh);
+    cursor: pointer;
+
+}
+
+li:hover {
+
+    color:#c7c1c1;
+}
+#getTheapp:hover {
+
+    color:#c7c1c1;
+}
+
+
+
+li {
+
+    align-self:center; 
+}
+
+#getTheapp {
+
+    height:5vh;
+    width:10vw;
+    transform: translate(15vw,-23.5vh);
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#d2d0d0;
+    cursor: pointer;
+
+}
+
+
+
+#zomatotext {
+
+    height:70px;
+
+}
+
+#zomatoimage {
+
+    transform: translate(40vw,30vh);
+    width:35vw;
+}
+
+#place {
+
+    transform:translate(35vw,35vh);
+    font-size: xx-large;
+    color:#fff;
+}
+
+#searchplace {
+
+    height:45px;
+    width:30vw;
+    transform: translate(39vw,40vh);
+    border-radius: 8px;
+}
+
+.container2 {
+
+    height:50vh;
+    width:98.6vw;
+    margin-top: 1em;
+    display:flex;
+
+}
+
+.orderonline {
+
+    height:42vh;
+    width:28vw;
+    margin:1.5em;
+    border-radius: 5px;
+}
+
+.image1 {
+
+    height:30vh;
+    width:27.8vw;
+    
+}
+
+h3 {
+
+    text-align: center;
+}
+
+.para {
+
+    transform: translateX(5vw);
+    margin-top:5px;
+}
+
+.image1 img {
+
+    height:29.3vh;
+    width:27.4vw;
+    border-radius: 8px;
+}
+
+.container3 {
+
+    height:55vh;
+    width:98.6vw;
+    margin-top:1.5em;
+    padding:1.5em;
+}
+
+.mid-container {
+
+    height:40vh;
+    width:96vw;
+    margin-top:1em;
+    display:grid;
+    gap:0.5em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.mid-container #div1 {
+
+    height:35vh;
+    width:20vw;
+    border-radius:8px;
+    background-image: url("restaur.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid-container #div2 {
+
+    width:20vw;
+    height:35vh;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-image: url("foreigners.jpeg");
+    background-size: cover;
+}
+
+.mid-container #div3 {
+
+    width:20vw;
+    height:35vh;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-image: url("cafee.jpeg");
+    background-size: cover;
+}
+
+.mid-container #div4 {
+
+    width:20vw;
+    height:35vh;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-image: url("laddus.jpeg");
+    background-size: cover;
+}
+
+.bottom-container {
+
+    height:15vh;
+    width:97vw;
+}
+
+.container4 {
+
+    height:70vh;
+    width:98.6vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    background-color: beige;
+    
+}
+
+.container4 img {
+
+    height:425px;
+    transform: translateX(-6vw);
+}
+
+.container4 p {
+
+    transform: translateY(-18vh);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.container5 {
+
+    height:80vh;
+    width:98.6vw;
+}
+
+.container5 div {
+
+    background-color: #f0ecec;
+    height:5vh;
+    margin:2em;
+    padding:1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size:large;
+    cursor:pointer;
+    transition-delay: 0.3s;
+}
+
+.container5 div:hover {
+
+    background-color: rgb(251, 251, 246);
+    scale:1.05;
+}
+
+.container5 h2 {
+
+    margin:1.5em;
+    padding:1em;
+    font-size:25px;
+}
+
+.container6 {
+
+    height:50vh;
+    width:98.6vw;
+    padding:2em;
+    margin-top:0.5em;
+    background-color: rgb(233, 229, 229);
+}
+
+.subcontainer {
+
+    height:40vh;
+    width:90vw;
+    display:grid;
+    gap:-0.7em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    transform: translateX(6vw);
+}
+
